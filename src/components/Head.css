@@ -1,0 +1,21 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+.search{
+
+}
+.user{
+  margin-left: 20px;
+}
+.avatar:hover{
+  cursor: pointer;
+}

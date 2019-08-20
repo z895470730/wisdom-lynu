@@ -1,0 +1,20 @@
+.page{
+  height: 100%;
+}
+.header{
+  background-color: white;
+  height: auto;
+}
+.leftMenu{
+  background: #fff;
+}
+.content{
+  background: rgba(255,255,255,.2);
+  padding: 24px;
+  margin: 0;
+}
+.body{
+  background-color: white;
+  border-radius: 3px;
+  min-height: 500px;
+}

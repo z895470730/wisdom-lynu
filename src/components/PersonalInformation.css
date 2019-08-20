@@ -1,0 +1,28 @@
+.page{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.personalInformation{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  align-items: center;
+}
+.avatar{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.option{
+  margin-top:8px;
+}

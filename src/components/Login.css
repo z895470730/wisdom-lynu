@@ -1,0 +1,21 @@
+.loginFormForgot {
+  float: right;
+}
+.loginFormButton {
+  width: 100%;
+  margin-bottom: 0px;
+}
+.registerFormButton{
+  width: 100%;
+  margin-bottom: 0px;
+}
+.forget{
+  float: right;
+}
+.FormItem{
+  margin-bottom: 20px;
+}
+.btnFormItem{
+  margin-top: 10px;
+  margin-bottom: 2px;
+}

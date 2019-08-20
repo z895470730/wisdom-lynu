@@ -1,0 +1,9 @@
+.menu{
+  height: 100%;
+}
+.list{
+  height: 100%;
+}
+.drawer{
+  z-index: 0;
+}
