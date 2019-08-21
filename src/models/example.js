@@ -3,8 +3,6 @@ export default {
 
   namespace: 'example',
   state: {
-    //取出来的数据应该像这样分类保存还是共用一个数组变量??
-    //token应该放在什么位置??
     jobCategory:[],
     callRecords:[],
     workTasks:[],
@@ -23,7 +21,6 @@ export default {
       yield put({type: 'saveUser', payload: text.list[0]});
     },
     *logout(action,{call,put}){
-      //如果传入参数写入payload会在点击获取工作类别等模块的数据后失效，并且显示call is not a function
       try {
         yield call(logOut);
         yield put({type: 'outUser'})
@@ -93,6 +90,5 @@ export default {
     saveEvaluation(state,action){
       return {...state, evaluation:action.payload.list}
     }
-  },
-
+  }
 };

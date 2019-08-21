@@ -35,4 +35,5 @@ class CallRecords extends React.Component {
     );
   }
 }
+
 export default connect(({example})=>({example}))(CallRecords);

@@ -16,12 +16,6 @@ const { Header, Content, Sider } = Layout;
 class HomePage extends React.Component{
   constructor(props) {
     super(props);
-    this.state = {
-
-    }
-  };
-  componentDidMount(){
-
   };
   render() {
     return (
@@ -67,7 +61,6 @@ class HomePage extends React.Component{
   }
 }
 
-HomePage.propTypes = {
-};
+HomePage.propTypes = {};
 
 export default connect(({example})=>({example}))(HomePage);
